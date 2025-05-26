@@ -22,7 +22,7 @@ pipeline {
     stages {
         stage('Validate & Generate Code') {
             steps {
-                // sh'go version'
+                sh'go version'
             }
         }
     }
